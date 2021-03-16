@@ -1,0 +1,138 @@
+/*Mayank Roy
+hw1.css*/
+body{
+	background-color:#caf7e3;
+}
+header{
+	background: url("https://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg") 55% 8% no-repeat;
+	text-align:center;
+	padding-bottom: 15px;
+}
+
+h1{
+	text-align:center;
+	font-variant:small-caps;
+	font-family: "Architects Daughter";
+	font-size: 300%;
+	color:#fed049;
+	display: inline-block;
+}
+
+h2{
+	text-align: center;
+	font-family: "Cormorant Unicase";
+	font-weight: bold;
+ 	font-size: 200%;
+	color:#363933;
+}
+
+.content{
+	font-family: "Ubuntu";
+	font-weight: bold;
+}
+
+.left{
+	width:400px;
+	padding: 2% 1%;
+	margin: 6px;
+	display: inline-block;
+	float: left;
+}
+
+.right{
+	width:690px;
+	margin: 10px;
+	border:5px;
+	display: inline-block;
+	float: right;
+}
+
+
+tr:first-child{
+	background: #838FF7;
+	height: 45px;
+	text-transform: uppercase;
+	color:#F23C3C ;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+tr{
+	font-family: "Ubuntu";
+	background: #83F7A1;
+	color: #C4147F;
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+
+td:first-child{
+	width: 450px;
+	height: 35px;
+	text-align: center;
+
+}
+
+td:first-child:hover{
+	transform: scale(1.2);
+	background:#17ECDF;
+}
+
+td{
+	width:150px;
+	height: 35px;
+	text-align: center;
+
+}
+
+table {
+	border-radius: 1em;
+	overflow: hidden;
+}
+
+hr{
+	width: 7%;
+  border: dotted #3a6351 6px;
+  border-bottom: none;
+
+}
+
+nav a{
+	display: inline-block;
+	width: 13%;
+	padding: 3px;
+	border-radius: 33%;
+	margin: 5px;
+	font-size: 150%;
+	text-decoration:none;
+	color: #1589E3;
+	background: #edffec;
+}
+
+nav a:visited {
+  color: #C16ADB;
+}
+
+nav a.active{
+  color: #1C2222;
+  background-color:#F89D62
+}
+
+nav a:hover {
+  color: #1BE7CE;
+	background-color:#f6dfeb;
+	transform:scale(1.2);
+}
+
+nav a:active {
+  color: #E71B8D;
+}
+.history-resources{
+	text-decoration: none;
+	font-family: "Ubuntu";
+}
+
+
+ img{
+	width: 67%;
+	margin: 10px 50px;
+	border-radius: 23%;
+}
